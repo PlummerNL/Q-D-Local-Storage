@@ -1,5 +1,5 @@
 # Quick and Dirty Local-Storage
-Simple, non-intrusive, way to update Fitbit clockfaces with persistant storage for settings
+Simple, non-intrusive, way to update Fitbit clockfaces with persistant storage for settings. It will save any settings on exit (but you can save whenever you want) and loads the settings when the clockface starts. So if there is no working peer socket you users will not notice that.
 
 When following the tutorials and samples of the Fitbit SDK you will probably rely on messaging for your clockface settings. Since this is very unreliable you can use the code provided here.
 
