@@ -1,7 +1,7 @@
 # Quick and Dirty Local-Storage
 Simple, non-intrusive, way to update Fitbit clockfaces with persistant storage for settings. It will save any settings on exit (but you can save whenever you want) and loads the settings when the clockface starts. So if there is no working peer socket your users will not notice that. With your old code the user will not see his/her preferences but whatever you hardcoded in the JS, SVG or CSS.
 
-When following the tutorials and samples of the Fitbit SDK you will probably rely on messaging for your clockface settings. Since this is very unreliable you can use the code provided here.
+When following the tutorials and samples of the Fitbit SDK you will probably rely on messaging for your clockface settings. Since this is very unreliable you can use the code provided here. The coding probably can be smarter and more compact, but this code everyone can read. Feel free to make in as cryptic as you want.
 
 Before using this code you need to get "Shared Preferences for Fitbit SDK" (https://github.com/JohnyGQD/fitbit-shared-preferences). First put this in your clockface code.
 
