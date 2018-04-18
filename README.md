@@ -8,5 +8,10 @@ Before using this code you need to get "Shared Preferences for Fitbit SDK" (http
 Next follow these steps:
 
 1. Create a table of all of your settings keys (including the keys for weather info and other web info)
-2. Copy your current receive message event to the doSettings function
-3. 
+2. Copy your current receive message event to the doSettings function and simplify as in the example code
+3. Add the getLocalStorage function
+4. Call the getLocalStorage() somewhere outside any function in your code
+
+Thats about it. The value you store can be anything, a string, number or a JSON object with weather data or other web provided data.
+
+
