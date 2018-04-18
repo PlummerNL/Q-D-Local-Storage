@@ -1,3 +1,6 @@
+// Import the lib for shared preferences
+import * as prefs from "../common/shared_preferences";
+
 // Put every settings key into this table 
 
 var settingsKeys = [
@@ -25,7 +28,7 @@ messaging.peerSocket.onmessage = evt => {
   }    
 }
 
-// New code to add, for doSettings use a copy of your own receive message event 
+// New code to add, for doSettings use a simplified copy of your own receive message event 
 
 function getLocalStorage() {
   var i = 0;
