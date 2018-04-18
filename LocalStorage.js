@@ -29,6 +29,8 @@ messaging.peerSocket.onmessage = evt => {
 }
 
 // New code to add, for doSettings use a simplified copy of your own receive message event 
+// You can omit the duplicate code by calling this function from your message received event 
+// instead of setting the colors there, but this is the Q&D way.
 
 function getLocalStorage() {
   var i = 0;
