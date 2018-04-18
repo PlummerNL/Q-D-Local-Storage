@@ -1,4 +1,4 @@
-# Q-D-Local-Storage
+# Quick and Dirty Local-Storage
 Simple, non-intrusive, way to update Fitbit clockfaces with persistant storage for settings
 
 When following the tutorials and samples of the Fitbit SDK you will probably rely on messaging for your clockface settings. Since this is very unreliable you can use the code provided here.
